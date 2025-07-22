@@ -108,7 +108,8 @@
     <string name="hr_employees">👤 NHÂN VIÊN</string>
     <string name="hr_schedule">📅 LỊCH LÀM VIỆC</string>
     <string name="hr_evaluation">📊 ĐÁNH GIÁ</string>
-    <string name="hr_attendance">⏰ CHẤM CÔNG</string>
+    <string name="hr_attendance">⏰ CHẤM CÔNG HÔM NAY</string>
+    <string name="hr_attendanceoke">⏰ CHẤM CÔNG</string>
     <string name="hr_add_employee">Add Employee</string>
     <string name="hr_manage_leaves">Manage Leaves</string>
     <string name="hr_reports">HR Reports</string>

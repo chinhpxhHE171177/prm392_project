@@ -16,6 +16,10 @@ public class EmployeeListResponse {
     public List<Employee> getData() { return data; }
     public void setData(List<Employee> data) { this.data = data; }
 
+    // Constructor mặc định (nếu cần cho Gson hoặc deserialization)
+    public EmployeeListResponse() {
+    }
+
     public EmployeeListResponse(boolean success, String message, List<Employee> data) {
         this.success = success;
         this.message = message;

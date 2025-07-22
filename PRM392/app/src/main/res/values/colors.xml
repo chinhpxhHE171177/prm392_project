@@ -35,6 +35,12 @@
     <color name="inactive">#9E9E9E</color>
     <color name="on_leave">#FFC107</color>
     <color name="terminated">#CF6679</color>
+    <color name="status_inactive">#BDBDBD</color>
+    <color name="status_pending_bg">#FFF3E0</color>
+    <color name="status_in_progress_bg">#E3F2FD</color>
+    <color name="status_review_bg">#F3E5F5</color>
+    <color name="status_completed_bg">#E8F5E9</color>
+    <color name="status_cancelled_bg">#ECEFF1</color>
 
     <!-- Màu ưu tiên công việc -->
     <color name="priority_low">#4CAF50</color>

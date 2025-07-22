@@ -38,4 +38,24 @@ public class PreferenceManager {
         editor.remove(Constants.KEY_EMAIL);
         editor.apply();
     }
+
+    public void setUserId(int userId) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("user_id", userId);
+        editor.apply();
+    }
+
+    public int getUserId() {
+        return sharedPreferences.getInt("user_id", -1);
+    }
+
+    public void setEmployeeId(int employeeId) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("employee_id", employeeId);
+        editor.apply();
+    }
+
+    public int getEmployeeId() {
+        return sharedPreferences.getInt("employee_id", -1);
+    }
 }

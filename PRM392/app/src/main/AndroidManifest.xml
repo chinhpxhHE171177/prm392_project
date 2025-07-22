@@ -55,6 +55,11 @@
             android:name=".ui.task.EditTaskActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.task.MyTasksTodayActivity" />
+        <activity
+            android:name=".ui.schedule.ScheduleActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.MainActivity"
             android:exported="false" />
         <activity
@@ -62,6 +67,18 @@
             android:exported="false" />
         <activity
             android:name=".ui.forgotpassword.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.attendanceHR.AttendanceCheckInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.attendanceHR.EmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.attendanceList.AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.scheduleHR.ScheduleActivity"
             android:exported="false" />
         <activity
             android:name=".ui.login.LoginActivity"
@@ -72,6 +89,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.attendance.AttendanceHistoryActivity" android:exported="false" />
+        <activity android:name=".ui.attendance.AttendanceTabsActivity" android:exported="false" />
     </application>
 
 </manifest>

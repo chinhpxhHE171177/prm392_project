@@ -1,6 +1,9 @@
 // ApiService.java
 package com.example.workforcemanagement.data.api;
 
+import com.example.workforcemanagement.data.model.AttendanceListResponse;
+import com.example.workforcemanagement.data.model.AttendanceRequest;
+import com.example.workforcemanagement.data.model.AttendanceResponse;
 import com.example.workforcemanagement.data.model.Department;
 import com.example.workforcemanagement.data.model.DepartmentResponse;
 import com.example.workforcemanagement.data.model.EmployeeListResponse;
@@ -10,12 +13,15 @@ import com.example.workforcemanagement.data.model.GoogleLoginRequest;
 import com.example.workforcemanagement.data.model.LoginResponse;
 import com.example.workforcemanagement.data.model.RequestPasswordResetRequest;
 import com.example.workforcemanagement.data.model.ResetPasswordRequest;
+import com.example.workforcemanagement.data.model.ScheduleResponse;
+import com.example.workforcemanagement.data.model.SchedulesResponse;
 import com.example.workforcemanagement.data.model.StatsResponse;
 import com.example.workforcemanagement.data.model.SuccessResponse;
 import com.example.workforcemanagement.data.model.TaskReportResponse;
 import com.example.workforcemanagement.data.model.TasksResponse;
 import com.example.workforcemanagement.data.model.UpdateProfileResponse;
 import com.example.workforcemanagement.data.model.User;
+import com.example.workforcemanagement.data.model.UserListResponse;
 import com.example.workforcemanagement.data.model.UsersResponse;
 import com.example.workforcemanagement.data.model.Task;
 
@@ -140,4 +146,81 @@ public interface ApiService {
     Call<TaskReportResponse> getTaskReport(
             @Header("Authorization") String authToken
     );
+
+    // Huy
+
+    @GET("api/schedules")
+    Call<SchedulesResponse> getSchedules(
+            @Header("Authorization") String token,
+            @Query("employee_id") Integer employeeId, // Integer để truyền null nếu không cần
+            @Query("start_date") String startDate,     // yyyy-MM-dd, optional
+            @Query("end_date") String endDate,         // yyyy-MM-dd, optional
+            @Query("status") String status,            // optional
+            @Query("department_id") Integer departmentId, // optional
+            @Query("page") Integer page,               // optional
+            @Query("limit") Integer limit              // optional
+    );
+
+    @POST("api/attendance")
+    Call<Void> createAttendance(@Header("Authorization") String token, @Body AttendanceRequest request);
+
+    @GET("api/attendance")
+    Call<AttendanceResponse> getAttendance(
+            @Header("Authorization") String token,
+            @Query("employee_id") Integer employeeId,
+            @Query("page") Integer page,
+            @Query("limit") Integer limit
+    );
+
+    // Tu
+    @POST("api/attendance/checkin")
+    Call<AttendanceResponse> checkIn(
+            @Header("Authorization") String token,
+            @Body AttendanceRequest request
+    );
+
+    @POST("api/attendance/checkout")
+    Call<AttendanceResponse> checkOut(
+            @Header("Authorization") String token,
+            @Body AttendanceRequest request
+    );
+
+    @POST("api/employees")
+    Call<Void> createEmployee(@Header("Authorization") String token, @Body Map<String, Object> employee);
+
+
+    @GET("api/users/without-employee")
+    Call<UserListResponse> getUsersWithoutEmployee(
+            @Header("Authorization") String token
+    );
+
+    @GET("api/employees/check-user-id/{userId}")
+    Call<Boolean> checkUserIdAssigned(@Header("Authorization") String token, @Path("userId") int userId);
+
+    @POST("api/schedules")
+    Call<Void> createSchedule(
+            @Header("Authorization") String token,
+            @Body Map<String, Object> schedule
+    );
+
+    @GET("api/schedules")
+    Call<ScheduleResponse> getSchedules(
+            @Header("Authorization") String token,
+            @Query("page") int page,
+            @Query("limit") int limit
+    );
+
+    @DELETE("api/schedules/{id}")
+    Call<Void> deleteSchedule(
+            @Header("Authorization") String token,
+            @Path("id") int id
+    );
+    @GET("api/attendance")
+    Call<AttendanceListResponse> getAttendances(
+            @Header("Authorization") String authToken,
+            @Query("employee_id") int employeeId,
+            @Query("date") String date
+    );
+    @PUT("api/employees/{id}")
+    Call<Void> updateEmployee(@Header("Authorization") String token, @Path("id") int id, @Body Map<String, Object> employee);
 }

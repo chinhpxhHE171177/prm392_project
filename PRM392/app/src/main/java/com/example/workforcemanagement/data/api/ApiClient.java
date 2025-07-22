@@ -64,4 +64,7 @@ public class ApiClient {
             }
         }
     }
+    public static ApiService getApiService() {
+        return getClient().create(ApiService.class);
+    }
 }
