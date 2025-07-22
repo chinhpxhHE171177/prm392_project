@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_admin_profile.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_admin_profile.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_admin_dashboard.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_create_user.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_create_user.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_register.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_forgot_password.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_attendance.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_attendance.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/nav_header.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_attendance_checkin.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_attendance_checkin.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_schedule_form.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_schedule_form.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_admin_edit_profile.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_admin_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/admin_footer.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/admin_footer.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_create_employee.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_create_employee.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_edit_department.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_edit_department.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_create_task.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_create_task.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_schedule.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_employee_dashboard.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_employee_dashboard.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_user_management.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_user_management.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_hr_dashboard.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_hr_dashboard.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_manager_dashboard.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_manager_dashboard.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_attendance.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_attendance.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_edit_task.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_edit_task.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_employee.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_employee.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_user_management.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_user_management.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_schedule.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_schedule.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_department.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_department.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_employee_attendance.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_employee_attendance.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_user_profile.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_department_management.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_department_management.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_employee_edit_profile.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_employee_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/user_footer.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/user_footer.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_create_department.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_create_department.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_task.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/dialog_edit_user.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/dialog_edit_user.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_reset_password.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/item_employee.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/item_employee.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_task_management.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_task_management.xml"
+    }
+]
