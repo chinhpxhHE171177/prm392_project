@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\item_user_management.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_user_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_admin_profile.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_admin_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_create_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_create_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_create_user.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_create_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_con_tracking_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_con_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\item_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_create_department.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_create_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_em_list_dep.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_em_list_dep.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_employee_edit_profile.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_employee_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_edit_user.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_edit_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_admin_edit_profile.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_admin_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_detail_tracking_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_detail_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\item_tracking_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_user_profile.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\item_employee.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\admin_footer.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\admin_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\item_department.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_edit_department.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_edit_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_task_management.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_task_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_employee_dashboard.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_employee_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_user_management.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_user_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\user_footer.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\user_footer.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-mergeDebugResources-45:/layout/activity_con_tracking_task.xml",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_con_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_edit_tracking_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_edit_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_create_tracking_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_create_tracking_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\dialog_edit_task.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\dialog_edit_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_hr_dashboard.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_hr_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_reset_password.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_department_management.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_department_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-mergeDebugResources-45:\\layout\\activity_manager_dashboard.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\activity_manager_dashboard.xml"
+    }
+]

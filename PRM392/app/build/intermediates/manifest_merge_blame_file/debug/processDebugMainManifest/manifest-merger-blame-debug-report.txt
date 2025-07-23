@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.workforcemanagement"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:5:5-67
+11-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:6:5-79
+12-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.workforcemanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.workforcemanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:8:5-90:19
+21        android:allowBackup="true"
+21-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\8.9\transforms\9dc08630bcc1d954e961bbb9fdcad245\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:11:9-41
+27        android:networkSecurityConfig="@xml/network_security_config"
+27-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:12:9-69
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.WorkforceManagement"
+31-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:15:9-57
+32        android:usesCleartextTraffic="true" >
+32-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:16:9-44
+33        <activity
+33-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.workforcemanagement.ui.dep_manager.EditTrackingTask"
+34-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:19:13-60
+35            android:exported="false" />
+35-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.workforcemanagement.ui.dep_manager.DetailTrackingTask"
+37-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:22:13-62
+38            android:exported="false" />
+38-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.workforcemanagement.ui.dep_manager.CreateTrackingTask"
+40-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:25:13-62
+41            android:exported="false" />
+41-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.workforcemanagement.ui.dep_manager.ActivityConTrackingTask"
+43-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:28:13-67
+44            android:exported="false" />
+44-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:30:9-32:39
+46            android:name="com.example.workforcemanagement.ui.dep_manager.ActivityEmListDep"
+46-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:31:13-61
+47            android:exported="true" />
+47-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:32:13-36
+48        <activity
+48-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.workforcemanagement.ui.profile.AdminEditProfile"
+49-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:34:13-56
+50            android:exported="false" />
+50-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.workforcemanagement.ui.profile.EmployeeEditProfile"
+52-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:37:13-59
+53            android:exported="false" />
+53-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.workforcemanagement.ui.admin.TaskManagementActivity"
+55-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:40:13-60
+56            android:exported="false" />
+56-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.workforcemanagement.ui.admin.DepartmentManagementActivity"
+58-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:43:13-66
+59            android:exported="false" />
+59-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.workforcemanagement.ui.admin.UserManagementActivity"
+61-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:46:13-60
+62            android:exported="false" /> <!-- New dashboard activities -->
+62-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.workforcemanagement.ui.main.AdminDashboardActivity"
+64-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:49:13-59
+65            android:exported="false" />
+65-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.workforcemanagement.ui.main.HRDashboardActivity"
+67-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:52:13-56
+68            android:exported="false" />
+68-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.workforcemanagement.ui.main.ManagerDashboardActivity"
+70-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:55:13-61
+71            android:exported="false" />
+71-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.workforcemanagement.ui.main.EmployeeDashboardActivity"
+73-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:58:13-62
+74            android:exported="false" />
+74-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:59:13-37
+75        <activity
+75-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.workforcemanagement.ui.profile.UserProfileActivity"
+76-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:61:13-59
+77            android:exported="false" />
+77-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:62:13-37
+78        <activity
+78-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:63:9-65:40
+79            android:name="com.example.workforcemanagement.ui.profile.AdminProfileActivity"
+79-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:64:13-60
+80            android:exported="false" />
+80-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:65:13-37
+81        <activity
+81-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:66:9-68:40
+82            android:name="com.example.workforcemanagement.ui.task.AddTaskActivity"
+82-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:67:13-52
+83            android:exported="false" />
+83-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:68:13-37
+84        <activity
+84-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:69:9-71:40
+85            android:name="com.example.workforcemanagement.ui.task.EditTaskActivity"
+85-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:70:13-53
+86            android:exported="false" />
+86-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:71:13-37
+87        <activity
+87-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:72:9-74:40
+88            android:name="com.example.workforcemanagement.ui.main.MainActivity"
+88-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:73:13-49
+89            android:exported="false" />
+89-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:74:13-37
+90        <activity
+90-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:75:9-77:40
+91            android:name="com.example.workforcemanagement.ui.forgotpassword.ForgotPasswordActivity"
+91-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:76:13-69
+92            android:exported="false" />
+92-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:77:13-37
+93        <activity
+93-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:78:9-80:40
+94            android:name="com.example.workforcemanagement.ui.forgotpassword.ResetPasswordActivity"
+94-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:79:13-68
+95            android:exported="false" />
+95-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:80:13-37
+96        <activity
+96-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:81:9-89:20
+97            android:name="com.example.workforcemanagement.ui.login.LoginActivity"
+97-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:82:13-51
+98            android:exported="true" >
+98-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:83:13-36
+99            <intent-filter>
+99-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:84:13-88:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:85:17-69
+100-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:85:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:87:17-77
+102-->H:\github\PRM_QuanLyNhansu\QuanLyNhanSu\PRM392\app\src\main\AndroidManifest.xml:87:27-74
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:23:9-27:75
+106            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+106-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:24:13-93
+107            android:excludeFromRecents="true"
+107-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:25:13-46
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:26:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:27:13-72
+110        <!--
+111            Service handling Google Sign-In user revocation. For apps that do not integrate with
+112            Google Sign-In, this service will never be started.
+113        -->
+114        <service
+114-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:33:9-37:51
+115            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+115-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:34:13-89
+116            android:exported="true"
+116-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:35:13-36
+117            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+117-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:36:13-107
+118            android:visibleToInstantApps="true" />
+118-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\a6fa4963430bc227731f9a90d0d1ee77\transformed\play-services-auth-21.3.0\AndroidManifest.xml:37:13-48
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\3908ecd1563d6f28ec2dfb1d1b3f303f\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\3908ecd1563d6f28ec2dfb1d1b3f303f\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\3908ecd1563d6f28ec2dfb1d1b3f303f\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\3908ecd1563d6f28ec2dfb1d1b3f303f\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\65875cd21ab99463799103cfd277dc40\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\65875cd21ab99463799103cfd277dc40\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\65875cd21ab99463799103cfd277dc40\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+128
+129        <provider
+129-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+130            android:name="androidx.startup.InitializationProvider"
+130-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+131            android:authorities="com.example.workforcemanagement.androidx-startup"
+131-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+132            android:exported="false" >
+132-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+133            <meta-data
+133-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+134-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+135                android:value="androidx.startup" />
+135-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\807c6cb6db715843b7aca06e4acf3cb6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+136            <meta-data
+136-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28dd69c7ac3854dac896453cf3eaa973\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+137-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28dd69c7ac3854dac896453cf3eaa973\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+138                android:value="androidx.startup" />
+138-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28dd69c7ac3854dac896453cf3eaa973\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+141                android:value="androidx.startup" />
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+142        </provider>
+143
+144        <uses-library
+144-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+145            android:name="androidx.window.extensions"
+145-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+146            android:required="false" />
+146-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+147        <uses-library
+147-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+148            android:name="androidx.window.sidecar"
+148-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+149            android:required="false" />
+149-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\28fe717f6f9e546a08a64b2e33f72a68\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+150
+151        <receiver
+151-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+152            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+153            android:directBootAware="false"
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+154            android:enabled="true"
+154-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+155            android:exported="true"
+155-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+156            android:permission="android.permission.DUMP" >
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+158                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+161                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+164                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+165            </intent-filter>
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+167                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\lenovo\.gradle\caches\8.9\transforms\6ea2be8ea40ee57a3d96f91d01c0158b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+168            </intent-filter>
+169        </receiver>
+170    </application>
+171
+172</manifest>
