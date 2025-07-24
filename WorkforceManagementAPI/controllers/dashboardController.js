@@ -6,7 +6,6 @@ const Task = require('../models/taskModel');
 const Evaluation = require('../models/evaluationModel');
 const Attendance = require('../models/attendanceModel');
 
-// controllers/dashboardController.js
 exports.getDepManagerDashboard = async (req, res) => {
     try {
         const userId = req.user.id;
@@ -34,6 +33,8 @@ exports.getDepManagerDashboard = async (req, res) => {
         // Lấy tổng số nhân viên thuộc phòng ban này (không lọc status)
         let totalCount = 0;
         let activeCount = 0;
+        let tasksInProgress = 0;
+        let tasksCompletedThisWeek = 0;
         if (department) {
             // Đếm tổng số nhân viên PB
             const [allRows] = await require('../config/db').execute(
@@ -48,6 +49,12 @@ exports.getDepManagerDashboard = async (req, res) => {
                 [department.id]
             );
             activeCount = activeRows[0]?.active || 0;
+
+            // Đếm số nhiệm vụ đang thực hiện
+            tasksInProgress = await Task.countTasksInProgressByDepartment(department.id);
+
+            // Đếm số nhiệm vụ hoàn thành trong tuần này
+            tasksCompletedThisWeek = await Task.countTasksCompletedThisWeekByDepartment(department.id);
         }
 
         // Trả dữ liệu về cho frontend
@@ -66,7 +73,8 @@ exports.getDepManagerDashboard = async (req, res) => {
             stats: {
                 employee_count_active: activeCount,
                 employee_count_total: totalCount,
-                // ...phần khác giữ nguyên nếu cần
+                tasks_in_progress: tasksInProgress,
+                tasks_completed_this_week: tasksCompletedThisWeek,
             }
         });
     } catch (error) {

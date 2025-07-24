@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_profile.xml">
+        <config>
+          <theme>@style/Theme.WorkforceManagement</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_con_tracking_task.xml">
         <config>
           <theme>@style/Theme.WorkforceManagement</theme>
@@ -30,6 +35,11 @@
           <theme>@style/Theme.WorkforceManagement</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_edit_profile.xml">
+        <config>
+          <theme>@style/Theme.WorkforceManagement</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.WorkforceManagement</theme>
@@ -46,6 +56,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_task_management.xml">
+        <config>
+          <theme>@style/Theme.WorkforceManagement</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
         <config>
           <theme>@style/Theme.WorkforceManagement</theme>
         </config>
@@ -77,17 +92,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e587fc56-23df-4ec6-a4b7-1d521fa00888" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/adapter/EmployeeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/adapter/EmployeeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/adapter/TaskAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/ActivityConTrackingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/ActivityConTrackingTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/ActivityEmListDep.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/ActivityEmListDep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/CreateTrackingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/CreateTrackingTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/EditTrackingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/dep_manager/EditTrackingTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_con_tracking_task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_con_tracking_task.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_create_tracking_task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_create_tracking_task.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_tracking_task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_tracking_task.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkforceManagementAPI/controllers/taskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkforceManagementAPI/controllers/taskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/data/model/ManagerDashboardStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/data/model/ManagerDashboardStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/main/ManagerDashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/main/ManagerDashboardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/profile/EmployeeEditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/profile/EmployeeEditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/profile/UserProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/workforcemanagement/ui/profile/UserProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkforceManagementAPI/controllers/dashboardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkforceManagementAPI/controllers/dashboardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkforceManagementAPI/models/gen_password_hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkforceManagementAPI/models/gen_password_hash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkforceManagementAPI/models/taskModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkforceManagementAPI/models/taskModel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

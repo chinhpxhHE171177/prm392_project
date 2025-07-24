@@ -4,6 +4,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_eye.xml"
     },
     {
+        "merged": "com.example.workforcemanagement.app-debug-46:/layout_activity_edit_tracking_task.xml.flat",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_edit_tracking_task.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_gradient_avatar_background.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\gradient_avatar_background.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\layout_item_department.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_department.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_ic_more_vert.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_more_vert.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\layout_item_department.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\item_department.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\layout_item_user_management.xml.flat",
@@ -60,6 +64,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_search.xml"
     },
     {
+        "merged": "com.example.workforcemanagement.app-debug-46:/layout_activity_em_list_dep.xml.flat",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_em_list_dep.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -74,6 +82,10 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_ic_new.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_new.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-debug-46:/layout_activity_create_tracking_task.xml.flat",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_create_tracking_task.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_ic_reports.xml.flat",
@@ -96,12 +108,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\font\\roboto_bold.ttf"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\layout_admin_footer.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\admin_footer.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_gradient_icon_background.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\gradient_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\layout_admin_footer.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\layout\\admin_footer.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_ic_add.xml.flat",
@@ -342,6 +354,10 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_ic_person_add.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-main-48:\\drawable\\ic_person_add.xml"
+    },
+    {
+        "merged": "com.example.workforcemanagement.app-debug-46:/layout_activity_detail_tracking_task.xml.flat",
+        "source": "com.example.workforcemanagement.app-main-48:/layout/activity_detail_tracking_task.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.9\\com.example.workforcemanagement.app-debug-46:\\drawable_circle_background.xml.flat",

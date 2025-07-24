@@ -1,5 +1,6 @@
 package com.example.workforcemanagement.ui.profile;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -54,18 +55,51 @@ public class EmployeeEditProfile extends AppCompatActivity {
 
         // Get user from intent
         user = (User) getIntent().getSerializableExtra("user");
-        if (user == null || !user.getProfileType().equals("employee")) {
-            Toast.makeText(this, "Error: Invalid employee profile", Toast.LENGTH_LONG).show();
+
+        // Debug logging
+        if (user != null) {
+            android.util.Log.d("EmployeeEditProfile", "User ID: " + user.getId());
+            android.util.Log.d("EmployeeEditProfile", "User Role: " + user.getRole());
+            android.util.Log.d("EmployeeEditProfile", "Profile Type: " + user.getProfileType());
+            android.util.Log.d("EmployeeEditProfile", "First Name: " + user.getFirstName());
+            android.util.Log.d("EmployeeEditProfile", "Last Name: " + user.getLastName());
+            android.util.Log.d("EmployeeEditProfile", "Email: " + user.getEmail());
+            android.util.Log.d("EmployeeEditProfile", "Phone: " + user.getPhone());
+            android.util.Log.d("EmployeeEditProfile", "Employee Code: " + user.getEmployeeCode());
+        } else {
+            android.util.Log.e("EmployeeEditProfile", "User is null!");
+        }
+
+        // Fix: Use safer null checking for profileType
+        if (user == null) {
+            Toast.makeText(this, "Error: User data not found", Toast.LENGTH_LONG).show();
             finish();
             return;
         }
 
-        // Populate fields
-        etEmployeeCode.setText(user.getEmployeeCode());
-        etFirstName.setText(user.getFirstName());
-        etLastName.setText(user.getLastName());
-        etEmail.setText(user.getEmail());
-        etPhone.setText(user.getPhone());
+        // Allow access if user is employee OR if profileType is null but role is employee
+        String profileType = user.getProfileType();
+        String role = user.getRole();
+
+        if (profileType != null && !"employee".equals(profileType)) {
+            Toast.makeText(this, "Error: This screen is for employees only", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+
+        // If profileType is null but role is employee, we'll allow it
+        if (profileType == null && (role == null || (!"employee".equals(role) && !"dep_manager".equals(role)))) {
+            Toast.makeText(this, "Error: Invalid user profile", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+
+        // Populate fields with null safety
+        etEmployeeCode.setText(user.getEmployeeCode() != null ? user.getEmployeeCode() : "");
+        etFirstName.setText(user.getFirstName() != null ? user.getFirstName() : "");
+        etLastName.setText(user.getLastName() != null ? user.getLastName() : "");
+        etEmail.setText(user.getEmail() != null ? user.getEmail() : "");
+        etPhone.setText(user.getPhone() != null ? user.getPhone() : "");
 
         // Disable Save button by default
         btnSave.setEnabled(false);
@@ -84,13 +118,17 @@ public class EmployeeEditProfile extends AppCompatActivity {
                 String lastName = etLastName.getText().toString().trim();
                 String email = etEmail.getText().toString().trim();
                 String phone = etPhone.getText().toString().trim();
+
+                // Safer comparison with null safety
                 boolean hasChanges = !firstName.equals(user.getFirstName() != null ? user.getFirstName() : "") ||
                         !lastName.equals(user.getLastName() != null ? user.getLastName() : "") ||
                         !email.equals(user.getEmail() != null ? user.getEmail() : "") ||
                         !phone.equals(user.getPhone() != null ? user.getPhone() : "");
+
                 btnSave.setEnabled(hasChanges);
             }
         };
+
         etFirstName.addTextChangedListener(textWatcher);
         etLastName.addTextChangedListener(textWatcher);
         etEmail.addTextChangedListener(textWatcher);
@@ -136,11 +174,17 @@ public class EmployeeEditProfile extends AppCompatActivity {
             public void onResponse(Call<UpdateProfileResponse> call, Response<UpdateProfileResponse> response) {
                 if (response.isSuccessful() && response.body() != null && response.body().isSuccess()) {
                     Toast.makeText(EmployeeEditProfile.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
-                    // Update local user object
-                    if (!firstName.equals(user.getFirstName() != null ? user.getFirstName() : "")) user.setFirstName(firstName);
-                    if (!lastName.equals(user.getLastName() != null ? user.getLastName() : "")) user.setLastName(lastName);
-                    if (!email.equals(user.getEmail() != null ? user.getEmail() : "")) user.setEmail(email);
-                    if (!phone.equals(user.getPhone() != null ? user.getPhone() : "")) user.setPhone(phone);
+
+                    // Update local user object with new values
+                    user.setFirstName(firstName);
+                    user.setLastName(lastName);
+                    user.setEmail(email);
+                    user.setPhone(phone);
+
+                    // Return updated user to UserProfileActivity
+                    Intent resultIntent = new Intent();
+                    resultIntent.putExtra("updated_user", user);
+                    setResult(RESULT_OK, resultIntent);
                     finish();
                 } else {
                     String errorMessage = response.body() != null ? response.body().getMessage() : "Failed to update profile";

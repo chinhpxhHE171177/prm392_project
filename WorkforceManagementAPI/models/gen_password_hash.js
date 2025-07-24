@@ -1,13 +1,11 @@
 const bcrypt = require('bcryptjs');
 
 const passwords = [
-  'Chinh123@',
-  'John123@',
-  'Jane123@',
-  'Bob123@',
-  '123@hai',
-  '1235@haib',
-  '1234@haiz'
+  '1234567@@',
+  '12345678@@',
+  '123456789@@',
+  '12345@@',
+  '1234@@'
 ];
 
 passwords.forEach(plainPassword => {

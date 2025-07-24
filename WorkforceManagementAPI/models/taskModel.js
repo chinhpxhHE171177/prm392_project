@@ -142,7 +142,44 @@ class Task {
         console.error('Error fetching tasks:', error);
         throw new Error('Failed to fetch tasks');
     }
-}
+    }
+
+    // count TasksInProgress ByDepartment
+    static async countTasksInProgressByDepartment(departmentId) {
+        try {
+            const [rows] = await db.execute(
+                `SELECT COUNT(*) AS count
+                 FROM tasks t
+                 LEFT JOIN employees e ON t.assignee_id = e.id
+                 WHERE e.department_id = ? AND t.status NOT IN ('completed', 'cancelled')`,
+                [departmentId]
+            );
+            return rows[0]?.count || 0;
+        } catch (error) {
+            console.error('Error counting tasks in progress:', error);
+            throw new Error('Failed to count tasks in progress');
+        }
+    }
+
+    // count TasksCompleted This Week ByDepartment
+     static async countTasksCompletedThisWeekByDepartment(departmentId) {
+        try {
+            // Giả sử trường updated_at là lúc task chuyển completed
+            const [rows] = await db.execute(
+                `SELECT COUNT(*) AS count
+                 FROM tasks t
+                 LEFT JOIN employees e ON t.assignee_id = e.id
+                 WHERE e.department_id = ?
+                   AND t.status = 'completed'
+                   AND YEARWEEK(t.updated_at, 1) = YEARWEEK(NOW(), 1)`,
+                [departmentId]
+            );
+            return rows[0]?.count || 0;
+        } catch (error) {
+            console.error('Error counting completed tasks this week:', error);
+            throw new Error('Failed to count completed tasks this week');
+        }
+    }
 
     // Existing findById method (giữ nguyên)
     static async findById(id) {
